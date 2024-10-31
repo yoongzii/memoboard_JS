@@ -1,0 +1,54 @@
+body{
+   background: lightgoldenrodyellow;
+   font-size: 18px;
+   font-family: 'Pretendard', sans-serif;
+}
+button{
+   margin: 0; padding: 0; line-height: 1em; font: inherit;
+   background: none; border: none;
+   cursor: pointer;
+}
+h1{
+   font-family: inherit; font-size: 28px;
+   padding: 50px; font-weight: bold;
+   text-align: center;
+}
+#wrap {
+   width: 1000px; height: 800px;
+   background: lightslategray; border-radius: 50px;
+   margin: 50px auto; padding: 30px;
+}
+#memo_form{
+   display: flex; flex-direction: column; justify-content: center;
+   gap: 10px; margin: auto; padding: 30px 0;
+   width: 800px; position: relative;
+}
+#writer_name{height: 30px}
+
+#writer_name, #content {
+   border: none;
+   border-radius: 10px;
+}
+#submitBtn{
+   position: absolute; right: 0; bottom: 0;
+   width: 100px; height: 20px;
+   background: #fff; border-radius: 5px;
+}
+
+#memo div{
+   position: relative; margin-bottom: 10px;
+   font-size: 16px;
+   border-bottom: 1px solid #FFF
+}
+
+
+#memo strong{font-size: 16px; font-weight: bold;}
+
+#memo .iconWrap{
+   position: absolute; right: 0; top: 0;
+   border: none;
+}
+
+#memo .pContent {
+width: 100%; background: none; border: none; color: #FFF;
+}
